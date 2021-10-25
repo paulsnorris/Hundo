@@ -46,6 +46,7 @@ function displayNumbers(numbers){
 
         let number = numbers[index];
         if (number % 2==0) {
+            //This does not render correctly with Prism, see source code
             templateRows += `<tr><td><b>${number}</b></td></tr>` 
         }
         else{
